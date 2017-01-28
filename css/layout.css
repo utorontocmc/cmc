@@ -1254,6 +1254,24 @@ fieldset[disabled] .btn-theme {
   padding-bottom: 100px;
 }
 
+.contacts {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 100px;
+
+}
+
+.contacts-block {
+   float: left;
+   padding-right:50px;
+   width:400px;
+}
+
+.contacts-block ul{
+  list-style-type: none;
+}
+
+
 /*------------------------------------------------------------------
     [Parallax Content]
 ------------------------------------------------------------------*/
@@ -1597,4 +1615,57 @@ fieldset[disabled] .btn-theme {
   font-family: sans-serif;
   font-weight: 100;
   margin-bottom: 100px;
+}
+
+.contacts{
+  text-decoration:none;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin:70px 10px 70px 10px;
+  line-height:60px;
+}
+
+.contacts img{
+  margin-right: 20px;
+}
+
+.contacts img{
+  width:40px;
+  height:40px;
+}
+
+.contacts-left{
+  float: left;
+  position: relative;
+}
+
+.contacts-right{
+  float: right;
+  position: relative;
+
+}
+
+
+@media screen and (min-width: 750px) {
+
+    .contacts::after {
+        clear: both;
+        content: '';
+        display: table;
+        height: 0;
+        visibility: hidden;
+
+    }
+
+    .contacts #contacts-left{
+        float: left;
+    }
+
+    .contacts #contacts-right{
+    float: right;}
+
+    /* Re-style here... */
+    .contacts #contacts-left{width:50%;}
+    .contacts #contacts-right{width:50%;}
+
 }
