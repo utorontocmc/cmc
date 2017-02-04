@@ -1598,3 +1598,27 @@ fieldset[disabled] .btn-theme {
   font-weight: 100;
   margin-bottom: 100px;
 }
+
+/*--------------------------------------------------
+    [Event Slider]
+----------------------------------------------------*/
+
+.eventTitle {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.introImg{
+  width: 60%;
+  float:auto;
+}
+
+#event-body{
+  overflow: scroll;
+  height: 400px;
+  width: 100%;
+  background-color: #F5FFFA;
+  border-style: initial;
+}
