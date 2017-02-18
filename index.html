@@ -41,6 +41,16 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="favicon.ico/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
+
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+		<!--fontawesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
     </head>
 
 	<body>
@@ -73,8 +83,8 @@
                             <ul class="navbar-nav navbar-nav-right">
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Home</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="events.html">Events</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#EventRedirect">Events</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#ContactRedirect">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -264,7 +274,7 @@
         <!-- End About -->
 
         <!-- Clock -->
-        <div class = "clock">
+        <div id="EventRedirect" class = "clock">
         	<h1>Next Event Coutdown</h1>
         	<div id="clockdiv">
 			  <div>
@@ -286,7 +296,111 @@
 			</div>
         </div>
 
-        <!-- Clients -->
+
+	<!--========== EVENT SLIDER ==========-->
+		<div class="container">
+			<div class="row">
+				<div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
+				<h1 style="text-align:center">Event List</h1>
+					<ul class="event-list">
+						<li>
+							<time datetime="2016-07-20">
+								<i class="day">4</i>
+								<i class="month">Jul</i>
+								<i class="year">2016</i>
+								<i class="time">ALL DAY</i>
+							</time>
+							<div class="info">
+								<h2 class="title">Event1</h2>
+								<p class="desc">Intro</p>
+								<ul>
+									<li style="width:100%;"><a href="eventDetail.html" target="external"><i class="fa fa-info"></i> Info</a></li>
+								</ul>
+							</div>
+							<div class="social">
+								<ul>
+									<li class="facebook" style="width:33%;"><a href="#facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li class="instagram" style="width:34%;"><a href="#instagram"><i class="fa fa-instagram"></i></a></li>
+									<li class="weixin" style="width:33%;"><a href="#weixin"><i class="fa fa-weixin"></i></a></li>
+								</ul>
+							</div>
+						</li>
+
+						<li>
+							<time datetime="2016-07-20 0000">
+								<i class="day">8</i>
+								<i class="month">Jul</i>
+								<i class="year">2016</i>
+								<i class="time">12:00 AM</i>
+							</time>
+							<div class="info">
+								<h2 class="title">Event2</h2>
+								<p class="desc">Intro</p>
+								<ul>
+									<li style="width:100%;"><a href="eventDetail.html" target="external"><i class="fa fa-info"></i> Info</a></li>
+								</ul>
+							</div>
+							<div class="social">
+								<ul>
+									<li class="facebook" style="width:33%;"><a href="#facebook"><i class="fa fa-facebook"></i></a></li>
+									<li class="instagram" style="width:34%;"><a href="#instagram"><i class="fa fa-instagram"></i></a></li>
+									<li class="weixin" style="width:33%;"><a href="#weixin"><i class="fa fa-weixin"></i></a></li>
+								</ul>
+							</div>
+						</li>
+
+						<li>
+							<time datetime="2016-07-20 2000">
+								<i class="day">20</i>
+								<i class="month">Jan</i>
+								<i class="year">2016</i>
+								<i class="time">8:00 PM</i>
+							</time>
+							<div class="info">
+								<h2 class="title">Event3</h2>
+								<p class="desc">Intro</p>
+								<ul>
+									<li style="width:100%;"><a href="eventDetail.html" target="external"><i class="fa fa-info"></i> Info</a></li>
+								</ul>
+							</div>
+							<div class="social">
+								<ul>
+									<li class="facebook" style="width:33%;"><a href="#facebook"><i class="fa fa-facebook"></i></a></li>
+									<li class="instagram" style="width:34%;"><a href="#instagram"><i class="fa fa-instagram"></i></a></li>
+									<li class="weixin" style="width:33%;"><a href="#weixin"><i class="fa fa-weixin"></i></a></li>
+								</ul>
+							</div>
+						</li>
+
+						<li>
+							<time datetime="2016-07-31 1600">
+								<i class="day">31</i>
+								<i class="month">Jan</i>
+								<i class="year">2016</i>
+								<i class="time">4:00 PM</i>
+							</time>
+							<div class="info">
+								<h2 class="title">Event4</h2>
+								<p class="desc">Intro</p>
+								<ul>
+									<li style="width:100%;"><a href="eventDetail.html" target="external"><i class="fa fa-info"></i> Info</a></li>
+								</ul>
+							</div>
+							<div class="social">
+								<ul>
+									<li class="facebook" style="width:33%;"><a href="#facebook"><i class="fa fa-facebook"></i></a></li>
+									<li class="instagram" style="width:34%;"><a href="#instagram"><i class="fa fa-instagram"></i></a></li>
+									<li class="weixin" style="width:34%;"><a href="#weixin"><i class="fa fa-weixin"></i></a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--========== END EVENT SLIDER ==========-->
+        
+    <!-- Clients -->
         <div class="bg-color-sky-light">
             <div class="content-lg container">
                 <!-- Swiper Clients -->
@@ -318,10 +432,11 @@
             </div>
         </div>
 
-				<!-- Contacts -->
+    <!-- End Clients -->
 
+	<!-- Contacts -->
 
-				<div class="contacts" >
+				<div id="ContactRedirect" class="contacts" >
 					<a name="contact"></a>
 							<p><h2>Contacts</h2><hr>
 								<div class="contacts-block" id="contacts-left">
@@ -338,9 +453,13 @@
 								</ul>
 							</div>
 				</div>
+	<!-- End Contacts -->
 
 
-        <!-- End Clients -->
+
+        
+
+
         <!-- CORE PLUGINS -->
         <script src="vendor/jquery.min.js" type="text/javascript"></script>
         <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
@@ -362,5 +481,7 @@
         <script src="js/components/swiper.min.js" type="text/javascript"></script>
         <script src="js/components/masonry.min.js" type="text/javascript"></script>
 
+				
+				<script src="js/controller/event.js" type="text/javascript"></script>
     </body>
 </html>
