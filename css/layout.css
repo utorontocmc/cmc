@@ -1712,7 +1712,7 @@ fieldset[disabled] .btn-theme {
   }
   .facebook a,
   .twitter a,
-  .google-plus a {
+  .weixin a {
     display: block;
     width: 100%;
     color: rgb(75, 110, 168) !important;
@@ -1720,8 +1720,8 @@ fieldset[disabled] .btn-theme {
   .twitter a {
     color: rgb(79, 213, 248) !important;
   }
-  .google-plus a {
-    color: rgb(221, 75, 57) !important;
+  .weixin a {
+    color: rgb(50,205,50) !important;
   }
   .facebook:hover a {
     color: rgb(255, 255, 255) !important;
@@ -1731,9 +1731,9 @@ fieldset[disabled] .btn-theme {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(79, 213, 248) !important;
   }
-  .google-plus:hover a {
+  .weixin:hover a {
     color: rgb(255, 255, 255) !important;
-    background-color: rgb(221, 75, 57) !important;
+    background-color: rgb(50,205,50) !important;
   }
 
   @media (min-width: 768px) {
