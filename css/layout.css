@@ -1711,14 +1711,14 @@ fieldset[disabled] .btn-theme {
     background-color: rgb(200, 200, 200);
   }
   .facebook a,
-  .twitter a,
+  .instagram a,
   .weixin a {
     display: block;
     width: 100%;
     color: rgb(75, 110, 168) !important;
   }
-  .twitter a {
-    color: rgb(79, 213, 248) !important;
+  .instagram a {
+    color: rgb(128,128,128) !important;
   }
   .weixin a {
     color: rgb(50,205,50) !important;
@@ -1727,9 +1727,9 @@ fieldset[disabled] .btn-theme {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(75, 110, 168) !important;
   }
-  .twitter:hover a {
+  .instagram:hover a {
     color: rgb(255, 255, 255) !important;
-    background-color: rgb(79, 213, 248) !important;
+    background-color: rgb(128,128,128) !important;
   }
   .weixin:hover a {
     color: rgb(255, 255, 255) !important;
@@ -1799,4 +1799,10 @@ fieldset[disabled] .btn-theme {
       padding: 10px 0px 9px;
     }
   }
+
+
+/*--------------------------------------------------
+    [EventDetail Page]
+----------------------------------------------------*/
+
 
